@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>06571234-BC2A-4F3E-9AFA-245CFAA5A05A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/CHANNEL" transform="translate(1.000000, 1.000000)" stroke-width="1.5" stroke="#FFFFFF">
+            <g id="CHANNEL">
+                <g>
+                    <circle id="Oval" cx="2.5" cy="26.5" r="2.5"></circle>
+                    <path d="M13,26.5 C13,20.7010101 8.29898987,16 2.5,16" id="Oval" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M21,27 C21,16.5065898 12.4934102,8 2,8" id="Oval" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M29,27 C29,12.0883118 16.9116882,0 2,0" id="Oval" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

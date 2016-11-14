@@ -1,0 +1,319 @@
+.mainComponent {
+	/*z-index: 0;*/
+	width: 100%;
+	height: 100%;
+	/*position: fixed;*/
+}
+.newPerson:focus, .newPerson:hover {
+	text-decoration: none;
+}
+.full {
+	width: 100%;
+	display: inline-table;
+	height: 100%;
+	z-index: 1;
+	/*opacity: 0.5;*/
+	position: absolute;
+	background-color: #000000;
+}
+.innerComponent {
+	/*width: 89%;*/
+	height: 98%;
+	/*height: 40vmax;*/
+	margin: 20px;
+	background-color: #fff;
+	opacity: 1;
+	padding: 15px;
+}
+.closeBtn {
+	float: right;
+	font-size: 25px;
+	color: #000;
+	text-decoration: none;
+}
+.closeBtn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.campaignCloseScreen {
+	float: right;
+	margin: 20px;
+	position: relative;
+	cursor: pointer;
+	font-size: 20px;
+}
+.campaignName, .tagName {
+	float: left;
+  font-family: 'Work Sans';
+  padding: 15px;
+}
+.textField input{
+	margin-left: 10px;
+}
+.campaignName input, .tagName input {
+	width: 350px;
+	padding: 4px;
+	/*margin-left: 10px;*/
+}
+.tagName input {
+	width: 450px;
+}
+
+.campaignMain {
+	background-color: #fff;
+	margin: 10px;
+	padding: 30px;
+}
+
+.campaignBtns {
+  border: 1px solid #00bfa5;
+  float: left;
+  margin: 10px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Work Sans';
+  margin-right: 260px; 
+  /*background-color: #fff;*/
+  /*padding: 15px;*/
+}
+.campaignBtns div:nth-child(1) {
+	/*padding: 20px;*/
+	font-size: 42px;
+	/*width: 60px;*/
+	float: left;
+	color: #fff;
+	background-color: #00bfa5;
+}
+.campaignBtns div:nth-child(2) {
+	padding: 20px;
+	width: 180px;
+	text-align: center;
+	float: left;
+}
+.campaignMain .campaignBtns:last-child, .escalationForm .campaignBtns:last-child{
+	margin-right: 0px;
+}
+.campaignBtnsLast {
+	margin-right: 0px;
+}
+/*#root > div > div > div.cf > div > div.cf.campaignMain > div:nth-child(1) > a:nth-child(2) > div:nth-child(1)*/
+
+/*.campaignBtns img{
+	height: 60px;
+}*/
+.ruleBtn {
+	margin: 10px;
+	cursor: pointer;
+}
+.ruleBtn span:nth-child(1) {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	padding: 12px;
+	font-size: 25px;
+	border-radius: 50%;
+	border: 1px solid  #00bfa5;
+	background-color:  #00bfa5;
+	color: #fff;
+}
+.ruleBtn span:nth-child(2) {
+	display: inline-block;
+	color: #00bfa5;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.channelImg, .contentImg {
+	height: 30px;
+	margin: 14px;
+}
+/*.contentImg {
+	height: 30px;
+}*/
+.groupImg {
+	height: 50px;
+	margin: 5px;
+}
+
+.addAnotherBtn {
+	display: block;
+	text-decoration: none;
+	width: 200px;
+}
+.addAnotherBtn:hover, .addAnotherBtn:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+.addAnotherBtn img {
+	height: 30px;
+}
+.addAnotherBtn span{
+ color: #00a6b6;
+ font-family: "Work Sans";
+ font-size: 20px;
+ text-decoration: none;
+}
+
+/*.validity {
+	margin: 10px;
+	background-color: #fff;
+}*/
+.validity span {
+	display: inline-block;
+	margin: 5px;
+}
+.validity input {
+	padding: 4px;
+	/*margin-right: 3px;*/
+}
+.escalationSection {
+	margin-top: 40px;
+}
+.escalationBtn {
+	border: 1px solid #00bfa5;
+	padding: 10px;
+	display: block;
+	width: 150px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+.escalationBtn:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+.escalationForm {
+	margin: 10px;
+	background-color: #fff;
+	padding: 30px;
+}
+.escalationName, .timeout, .validity {
+	margin: 10px;
+}
+.escalationContentPeopleBtn, .timeout {
+	float: left;
+}
+
+.searchBoxFull {
+ width: 100%;
+ margin-left: 38%;
+}
+.searchBox {
+    margin-top: 1px;
+    float: left;
+    width: 22%;
+    /*margin-right: 20px;*/
+    margin-left: -1.5px;
+    margin-bottom: 0 !important;
+}
+.searchBox input {
+    border-radius: 0;
+}
+.searchBoxIcon {
+	
+	/*border: 1px solid #fff;*/
+	float: left;
+}
+.searchBoxIcon img {
+	height: 35px;
+}
+.searchBoxIconAlt {
+	float: left;
+	background-color: #464646;
+  border: solid 0.8px #464646;
+  padding: 7px;
+  color: #fff;
+}
+
+.commonsFull h1{
+	font-family: 'Work Sans';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #464646;
+  width: 20%;
+  margin: 0px !important;
+}
+.commonsFull .context {
+	/*padding: 7.2px;*/
+	font-size: 21px;
+	font-family: 'Work Sans';
+	margin-left: 15px !important;
+	margin: 1px;
+}
+.displayRules {
+	margin-top: 50px;
+	font-family: 'Work Sans';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #464646;
+}
+.rules1 {
+	/*float: left;*/
+	padding: 30px;
+	/*width: 450px;*/
+}
+.singleRule {
+	padding: 22px;
+}
+.channelDropDown {
+	width: 180px;
+	/*height: 200px;*/
+	background-color: red;
+	margin-top: 74px;
+	margin-left: 69px;
+	position: absolute;
+	z-index: 990;
+}
+.channelDropDown a {
+	display: block;
+	padding: 7px 10px;
+}
+.channelDropDown a:hover, a:focus {
+	text-decoration: none;
+	cursor: pointer;
+}
+.channelContentEdit .header {
+
+}
+.channelContentEdit .goBack {
+	display: inline-block;
+	width: 5%;
+	background-color: #464646;
+	color: #fff;
+	padding: 18px;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+}
+.channelContentEdit .nameInHeader {
+	display: inline-block;
+	margin-left: 72px;
+	width: 94.5%;
+	padding:8px;
+	background-color: #00bfa5;
+}
+.channelContentEditMiddle {
+  margin: 20px;
+}
+.displayGroupsInCampaign, .displayPeoplesInCampaign {
+	padding: 20px;
+	border: 1px solid #464646;
+	font-size: 18px;
+	font-family: 'Work Sans';
+	margin-top: 10px;
+} 
+.displayPeoplesInCampaign {
+ 
+}
+.displayGroupsInCampaign {
+
+}
+.contentTextarea {
+	width: 98%;
+	margin: 0 auto;
+	height: 150px;
+}

@@ -1,0 +1,327 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.newGroupTextField input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f5f5f5 inset;
+}
+body {
+  -moz-appearance: none;
+}
+select {
+   outline: none;
+  /*color: rgba(0,0,0,0);*/
+  text-shadow: 0 0 0 #000;
+  -moz-appearance:none;
+  -webkit-appearance: none;
+}
+select:focus, option:focus, select::-moz-focus-inner, option::-moz-focus-inner {
+    outline: none;
+    border: none;
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+a:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+.cf:before, .cf:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html, body {
+  /*height: 100%;*/
+  margin: 0px;
+}
+hr {
+    margin: 0 !important;
+}
+.main {
+    height: 100vh;
+    position: relative;
+    top: 210px;
+}
+.group {
+    width: 14%;
+    height: 60vmax;
+    background-color: #f5f5f5;
+    float: left;
+    /*height: 100%;*/
+    /*min-height: 100%;*/
+    /*max-height: 150vh;*/
+}
+
+.group hr {
+    border-bottom: 1px solid #8a8a8a;
+    margin-top: 10% !important;
+}
+
+.allGroup {
+    position: relative;
+    width:89%;
+    height:40px;
+    color:#464646;
+    font-family: 'Work Sans';
+    background-color:#eb7575;
+    text-align:center;
+    line-height:40px;
+    cursor: pointer;
+    display: block;
+    /*margin-top: -15px;*/
+}
+.allGroup:hover {
+   text-decoration: none;
+}
+
+.allGroup::after {
+    content:"";
+    position: absolute;
+    left: 100%;
+    top:0px;
+    width:0px;
+    height:0px;
+    border-top:20px solid transparent;
+    border-left:25px solid #eb7575;
+    border-bottom:20px solid transparent;
+}
+
+.newGrouupBtn {
+    width: 80%;
+    margin: auto;
+    color: #eb7575;
+    display: block;
+    cursor: pointer;
+    margin-top: 8%
+}
+.newGrouupBtn span:nth-child(1) {
+    margin-right: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+.newGrouupBtn span:nth-child(2) {
+    font-size: 20px;
+    font-family: 'Work Sans';
+}
+
+
+
+.people {
+    width: 86%;
+    float: left;
+    overflow-y: auto;
+}
+
+.newPerson:hover, .newPerson:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+.newPerson span:first-child {
+  border: 1px solid #00bfa5;
+  padding: 1.5px;
+}
+
+.newPerson span:last-child {
+   font-family: 'Work Sans';
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+
+.start {
+    width: 97%;
+    margin: 0 auto;
+    height: 200px;
+    border: 1px solid #979797;
+}
+.start p {
+    margin-left: 165px;
+    text-align: center;
+    font-size: 30px;
+    color:#a3a1a1;
+    margin-top: 20px;
+    font-family: 'Work Sans';
+}
+.start p span {
+    color: black;
+}
+.start>.newPerson {
+  text-align: center;
+  margin: 50px 50px;
+  width: 160px;
+  position: relative;
+  left: 39%;
+}
+.personsList {
+    cursor: pointer;
+    opacity: 1;
+
+}
+.personsListPlus {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.personsList span {
+    font-family: 'Work Sans';
+    font-size: 24px;
+    display: inline-block;
+    width: 23%;
+    /*margin-left: 2%;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 2%;
+    padding-left: 4%;
+}
+
+.personsList span:nth-child(4) {
+    color: red;
+    cursor: pointer;
+    position: relative;
+}
+.personsListPlus span:nth-child(4) {
+    cursor: not-allowed;
+}
+.personsList span:nth-child(4):after {
+/*    content:"v";
+    position: absolute;
+    left: 30%;
+    top:0px;
+    width:0px;
+    height:0px;*/
+    /**/
+    /*-ms-transform: rotate(7deg); /* IE 9 */
+    /*-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    /*transform: rotate(270deg);*/
+    /*border-left:10px solid transparent;
+    border-top:15px solid #eb7575;
+    border-right:10px solid transparent;*/
+}
+.personsList > div {
+    /*float: right;*/
+    margin-left: 74%;
+    /*margin-top: 0.2%;*/
+    width: 20%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Work Sans';
+    font-size: 18px;
+}
+
+.newPerson {
+    margin: 10px 0px 40px 20px;
+    /*margin-bottom: 40px;*/
+    width: 160px;
+    display: block;
+     color: #00bfa5;
+     text-decoration: none;
+}
+.newPerson:hover {
+    text-decoration: none;
+    color: #00bfa5;
+}
+.Select-value {
+    position: relative;
+    top: 22px;
+}
+.Select-input input {
+    width: 135px !important;
+    display: inline-block;
+
+}  
+
+.showGroup {
+    border: 1px solid #464646;
+    width: auto;
+    border-radius: 0.5em;
+    /*padding: 0.5%;*/
+    float: left;
+    font-family: 'Work Sans';
+  font-size: 24px;
+  margin-right: 1.5%;
+  margin-top: 2%;
+}
+
+.showGroup div:nth-child(1) {
+    /*width: 85%;*/
+    /*display: inline-block;*/
+    padding: 1px;
+    float: left;
+    font-family: 'Work Sans';
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.showGroup div:nth-child(2) {
+    /*display: inline-block;*/
+    padding: 1px;
+    float: left;
+    cursor: pointer;
+    border-left: 1px solid #464646;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.search {
+    margin-top: 5px;
+    float: right;
+    width: 22%;
+    margin-right: 20px;
+    margin-bottom: 0 !important;
+}
+
+.search input {
+    border-radius: 0;
+}
+
+.search span {
+    color: grey !important;
+}
+
+.addPersonForm {
+    margin: 40px 0px 25px 0px;
+    /*padding-left: 10px;*/
+}
+.personNameField {
+    -webkit-appearance:none;
+    margin-right: 35px;
+    /*height: 0;*/
+
+}
+.personNameField:nth-child(1) {
+    width: 20% !important;
+}
+.personNameField:nth-child(2) {
+    width: 24% !important;
+}
+.personNameField:nth-child(3) {
+    width: 22% !important;
+}
+.autoCompleteTestField {
+    width: 100% !important;
+}
+
+.formFields {
+    margin-bottom: 10px;
+}
+.displayGroupDiv {
+        color: '#464646';
+        font-size: 24;
+        overflow: 'hidden';
+        text-overflow: 'ellipsis';
+        white-space: 'nowrap';
+        font-family: 'Work Sans';
+        cursor: 'pointer';
+}
+
+

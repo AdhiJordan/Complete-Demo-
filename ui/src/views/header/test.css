@@ -1,0 +1,82 @@
+.button{
+  width:20px;
+  height: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+.large{
+  width:40px;
+  height:40px;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: green;
+    margin-top: -9px;
+}
+.color{
+  background-color: blue;
+
+}
+.circle{
+  margin-top: 20px;
+    width:100px;
+    float :left;
+    align-content: center;
+    margin-right: 50px;
+}
+.l1{
+  position: relative;
+  top: 22px;
+  width: 348px !important;
+  left: 440px;
+  margin-top: 7px !important;
+  margin-bottom: 0px;
+  width: 250px;
+  border-width: 5px;
+  margin-left: 100px !important;
+}
+.tab{  
+  position: fixed;
+  margin-top: -14px;
+  margin-left:auto;
+  margin-right: auto;
+  overflow: hidden;
+  top: 154px;
+  left: 328px;
+}
+.section{  
+  float: left;
+}
+.none{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-style: none;
+}
+.logo{
+      width: 20%;
+    float: left;
+    height: 40px;
+}
+.message{
+  text-align: center;
+    width: 100%;
+    padding: 18px;
+        background-color: antiquewhite;
+}
+.highlight{
+  font-weight: 900;
+  font-size: 15px;
+  
+  }
+.line{
+     width: 100%;
+    border-top: 4px solid #8BC34A;
+    margin: 0px;
+}
+.lineHide{
+  margin: 0px;
+display: none;
+}
+.headerTab {
+
+}

@@ -1,0 +1,2 @@
+export const GET_PEOPLE_SUCCESS = 'edit/GET_PEOPLE_SUCCESS';
+

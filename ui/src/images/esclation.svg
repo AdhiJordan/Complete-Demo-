@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>D22B8896-9F48-4FB1-AA0D-B12F1484415B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="notif/add-Escalation" transform="translate(-12.000000, -15.000000)">
+            <g id="Escalation">
+                <g id="icons/Esclation-with-+" transform="translate(12.000000, 16.000000)">
+                    <g id="icons/Esclation" stroke="#00BFA5" stroke-width="1.5">
+                        <circle id="Oval-85" cx="25.5" cy="27.5" r="22.5"></circle>
+                        <path d="M17.3673521,0.177184023 C10.2352441,2.2968788 4.27222347,7.13298746 0.677740134,13.4860599 M50.8838823,14.5287785 C47.5766471,8.06967668 41.8765317,3.03859899 34.9531994,0.605208767" id="Oval-85"></path>
+                    </g>
+                    <text id="+" font-family="WorkSans-Light, Work Sans" font-size="36" font-weight="300" fill="#00BFA5">
+                        <tspan x="14.628" y="38">+</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
